@@ -30,9 +30,9 @@ conda activate Protosam
 
 * Download the dataset [here](https://huggingface.co/datasets/fish111111/ProtoSAM/tree/main).
 
-* Place dataset under `datadile` like the following:
+* Place dataset under `datafile` like the following:
 ```
-datadile/
+datafile/
 |–– lung/
 |   |–– imagesTr/
 |   |–– labelsTr/
