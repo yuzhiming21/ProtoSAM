@@ -18,7 +18,8 @@
 pip install conda-pack
 
 # Download environment compressed file
-Protosam.tar.gz https://huggingface.co/datasets/fish111111/ProtoSAM/tree/main
+Protosam.tar.gz
+https://huggingface.co/datasets/fish111111/ProtoSAM/tree/main
 
 # Unzip and activate the environment
 mkdir /home/.conda/envs/Protosam
@@ -48,8 +49,10 @@ datafile/
 * Run the training and evaluation script
 
 ```bash
+# train
 bash train_iseg_tri_attn_loraAdapter_pEncodeS_miniD.sh
 
+# test
 bash _similative_click.sh
 ```
 * You can change some design settings in the [train](https://github.com/yuzhiming21/ProtoSAM/blob/main/train_iseg_tri_attn_loraAdapter_pEncodeS_miniD.sh) and [test](https://github.com/yuzhiming21/ProtoSAM/blob/main/_similative_click.sh).
